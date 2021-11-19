@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@200&display=swap');
+
+
+h1 {
+    font-size: 100px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+}
+
+
+@media screen and (max-width: 1298px) {
+    h1{
+        font-size: 50px;
+    }
+}
+
+
+@media screen and (max-width: 998px) {
+    h1{
+        font-size: 30px;
+    }
+}
